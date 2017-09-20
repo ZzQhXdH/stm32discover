@@ -1,0 +1,12 @@
+--cpu=Cortex-M4.fp
+"..\output\startup_stm32f429_439xx.o"
+"..\output\system_stm32f4xx.o"
+"..\output\main.o"
+"..\output\ltdc.o"
+"..\output\sdram.o"
+"..\output\spi.o"
+"..\output\lcd.o"
+--strict --scatter "..\Output\Ltdc.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\Listings\Ltdc.map" -o ..\Output\Ltdc.axf

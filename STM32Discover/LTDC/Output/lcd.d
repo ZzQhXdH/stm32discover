@@ -1,0 +1,10 @@
+..\output\lcd.o: ..\Device\Lcd.cpp
+..\output\lcd.o: ..\Device\Lcd.h
+..\output\lcd.o: ..\..\LTDC\Periph/LTDC.h
+..\output\lcd.o: ..\System\stm32f4xx.h
+..\output\lcd.o: ..\CMSIS\core_cm4.h
+..\output\lcd.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\lcd.o: ..\CMSIS\core_cmInstr.h
+..\output\lcd.o: ..\CMSIS\core_cmFunc.h
+..\output\lcd.o: ..\CMSIS\core_cmSimd.h
+..\output\lcd.o: ..\System\system_stm32f4xx.h

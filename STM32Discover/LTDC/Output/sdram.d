@@ -1,0 +1,9 @@
+..\output\sdram.o: ..\Periph\SDRAM.cpp
+..\output\sdram.o: ..\..\LTDC\Periph/SDRAM.h
+..\output\sdram.o: ..\System\stm32f4xx.h
+..\output\sdram.o: ..\CMSIS\core_cm4.h
+..\output\sdram.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\sdram.o: ..\CMSIS\core_cmInstr.h
+..\output\sdram.o: ..\CMSIS\core_cmFunc.h
+..\output\sdram.o: ..\CMSIS\core_cmSimd.h
+..\output\sdram.o: ..\System\system_stm32f4xx.h

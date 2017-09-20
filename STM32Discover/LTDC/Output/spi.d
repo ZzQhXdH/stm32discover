@@ -1,0 +1,9 @@
+..\output\spi.o: ..\Periph\Spi.cpp
+..\output\spi.o: ..\..\LTDC\Periph/Spi.h
+..\output\spi.o: ..\System\stm32f4xx.h
+..\output\spi.o: ..\CMSIS\core_cm4.h
+..\output\spi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\spi.o: ..\CMSIS\core_cmInstr.h
+..\output\spi.o: ..\CMSIS\core_cmFunc.h
+..\output\spi.o: ..\CMSIS\core_cmSimd.h
+..\output\spi.o: ..\System\system_stm32f4xx.h

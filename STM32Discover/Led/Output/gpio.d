@@ -1,0 +1,9 @@
+..\output\gpio.o: ..\Periph\Gpio.cpp
+..\output\gpio.o: ..\..\Led\Periph/Gpio.h
+..\output\gpio.o: ..\System\stm32f4xx.h
+..\output\gpio.o: ..\CMSIS\core_cm4.h
+..\output\gpio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\gpio.o: ..\CMSIS\core_cmInstr.h
+..\output\gpio.o: ..\CMSIS\core_cmFunc.h
+..\output\gpio.o: ..\CMSIS\core_cmSimd.h
+..\output\gpio.o: ..\System\system_stm32f4xx.h
